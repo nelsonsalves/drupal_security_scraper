@@ -1,0 +1,16 @@
+{
+  "name": "drupal_scraper",
+  "version": "1.0.0",
+  "description": "Scrap drupal security page to mail when an update is available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "nodemailer": "^6.6.1"
+  }
+}
